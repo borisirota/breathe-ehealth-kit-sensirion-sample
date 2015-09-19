@@ -17,3 +17,9 @@ Now, just open `eHealth.ino` in Arduino IDE, upload it to the Arduino and the eH
 ## Sensirion
 
 Run `./sensirion.py` and sensors' data will be printed
+
+## Node-RED flow
+
+Copy flow.json contents and import to Node-RED from clipboard.  
+In order to make it work, change the `XXX` and `YYY` Id values in both "IBM IoT App In" nodes to correspond to the real Ids.  
+Change the type as well if you registered the devices under different type.
